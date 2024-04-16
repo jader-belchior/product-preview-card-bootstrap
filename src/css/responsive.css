@@ -1,0 +1,19 @@
+@media (max-width: 767px) {
+    #imgGrande {
+      display: none;
+    }
+    *{
+        font-size: small;
+    }
+    .row{
+        max-width: 450px;
+        margin: auto;
+    }
+  }
+
+  @media (min-width: 768px) {
+    #imgPequena {
+      display: none;
+      width: 100%;
+    }
+  }
